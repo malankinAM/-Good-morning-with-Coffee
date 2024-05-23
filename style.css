@@ -129,8 +129,8 @@ button:hover {
 }
 
 @media (max-width:470px){
-            img{
-                        width: 200px;
-                        height: 200px;
+            .wrap--glass{
+                        width: 500px;
+                        height: 750px;
             }
 }
