@@ -128,9 +128,70 @@ button:hover {
   }
 }
 
-@media (max-width:470px){
-            .wrap--glass{
-                        width: 450px;
-                        height: 750px;
+@media (max-width: 768px) {
+            .wrap--glass {
+              padding: 2rem;
             }
-}
+            .wrap--glass h1 {
+              font-size: 1.8rem;
+            }
+            .wrap--glass h2 {
+              font-size: 1.2rem;
+            }
+            .wrap--glass p {
+              font-size: 1.2rem;
+            }
+            button {
+              width: 6rem;
+              height: 2.5rem;
+              font-size: 1rem;
+            }
+          }
+          
+          /* Адаптация для больших смартфонов */
+          @media (max-width: 576px) {
+            .wrap--glass {
+              padding: 1.5rem;
+            }
+            .wrap--glass h1 {
+              font-size: 1.6rem;
+            }
+            .wrap--glass h2 {
+              font-size: 1rem;
+            }
+            .wrap--glass p {
+              font-size: 1rem;
+            }
+            button {
+              width: 5rem;
+              height: 2rem;
+              font-size: 0.9rem;
+            }
+          }
+          
+          /* Адаптация для маленьких смартфонов */
+          @media (max-width: 470px) {
+            .wrap--glass {
+              padding: 1rem;
+              width: 100%;
+              height: auto;
+            }
+            img {
+              width: 100%;
+              height: auto;
+            }
+            .wrap--glass h1 {
+              font-size: 1.4rem;
+            }
+            .wrap--glass h2 {
+              font-size: 0.9rem;
+            }
+            .wrap--glass p {
+              font-size: 0.9rem;
+            }
+            button {
+              width: 4.5rem;
+              height: 1.8rem;
+              font-size: 0.8rem;
+            }
+          }
