@@ -170,7 +170,7 @@ button:hover {
           }
           
           /* Адаптация для маленьких смартфонов */
-          @media (max-width: 470px) {
+          @media (max-width: 450px) {
             .wrap--glass {
               padding: 1rem;
               width: 100%;
